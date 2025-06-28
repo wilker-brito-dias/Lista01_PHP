@@ -1,0 +1,64 @@
+body {
+    background-color: #fcedd6;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* empilha os elementos (form e .nxp) */
+    align-items: center;     /* alinha horizontalmente */
+    justify-content: flex-start; /* começa do topo */
+    min-height: 100vh;
+}
+
+form {
+    color: gray;
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.botao {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.nxp {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.bt {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura da tela inteira */
+    background-color: #f0f0f0; /* Só pra dar um fundo bonito */
+    margin: 0; /* Tira margens padrão */
+}
+form {
+    color: gray;
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    text-align: center; /* Deixa os inputs alinhados dentro */
+}
+
+
+input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.botao {
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.resultado {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #e0ffe0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao-esquerda {
+    margin-top: 400px;
+    text-align: left;
+    padding-left: 5px; /* Ajuste para alinhar como quiser */
+    border-radius: 30px;
+}
+.b1{
+    border-radius: 10px;
+    color: brown;
+    height: 30px;
+    cursor: pointer;
+}
